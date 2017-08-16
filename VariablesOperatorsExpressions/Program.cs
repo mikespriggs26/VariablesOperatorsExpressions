@@ -12,9 +12,61 @@ namespace VariablesOperatorsExpressions
         {
 
 
+
+            //problem #1
+            int diners = 4;
+            int dinersShare = 13;
+            Console.WriteLine("The bill is " + diners * dinersShare);
+
+            //problem #2
+            int recipeCups = 7;
+            int cupsAdded = 2;
+            Console.WriteLine(recipeCups - cupsAdded);
+
+
+            //problem #3
+            int diaperCost = 8;
+            int cashOnhand = 40;
+            Console.WriteLine(cashOnhand / diaperCost);
+            
+              
+            //problem #4
+            int trevonFriMoney = 29;
+            int trevonTuesMoney = 41;
+            Console.WriteLine(trevonTuesMoney - trevonFriMoney);
+            
+
+            //problem #5
             int juliaMiles = 47;
-            int pravaMiles = juliaMiles - 30;
-            Console.WriteLine(pravaMiles);
+            Console.WriteLine(juliaMiles - 30);
+            
+           
+            //problem #6
+            int box = 3;
+            int cash = 12;
+            int purchase = cash / box;
+            Console.WriteLine(purchase);
+
+            //problem #7
+            float saladCost = 5.12f;
+            float remainingCash = 27.10f;
+            float originalCash = remainingCash + saladCost;
+            Console.WriteLine(originalCash);
+
+
+            //Slide#11
+            //problem #1
+            int students = 331;
+            int studentsInCars = 7;
+            int busses = 6;
+            int studentsPerBus = (students - studentsInCars) / busses;
+            Console.WriteLine(studentsPerBus);
+             
+
+
+
+
+
 
 
 
