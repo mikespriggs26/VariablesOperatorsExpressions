@@ -10,6 +10,16 @@ namespace VariablesOperatorsExpressions
     {
         static void Main(string[] args)
         {
+
+
+            int juliaMiles = 47;
+            int pravaMiles = juliaMiles - 30;
+            Console.WriteLine(pravaMiles);
+
+
+
+
+
         }
     }
 }
