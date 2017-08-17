@@ -42,10 +42,10 @@ namespace VariablesOperatorsExpressions
             
            
             //problem #6
-            int box = 3;
-            int cash = 12;
-            int purchase = cash / box;
-            Console.WriteLine(purchase);
+            //int box = 3;
+            //int cash = 12;
+            //int purchase = cash / box;
+            //Console.WriteLine(purchase);
 
             //problem #7
             float saladCost = 5.12f;
@@ -61,6 +61,37 @@ namespace VariablesOperatorsExpressions
             int busses = 6;
             int studentsPerBus = (students - studentsInCars) / busses;
             Console.WriteLine(studentsPerBus);
+
+            //
+
+
+
+            //problem #3
+            //int num = 72;
+            //int average = num / 3;
+            //int smallestNum = --average;
+            //Console.WriteLine(smallestNum);
+            
+            //problem #4
+            int num = 48;
+            int average = num / 3;
+            int smallestNumber = average - 2;
+            Console.WriteLine(smallestNumber);
+            
+            //problem #5
+            int boxesPurchased = 7;
+            int remainingBoxes = 22;
+            int boxesBeforeFire = remainingBoxes * 2;
+            int originalBoxes = boxesBeforeFire - boxesPurchased;
+            Console.WriteLine(originalBoxes);
+
+
+
+            
+
+
+
+
              
 
 
